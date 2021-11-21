@@ -33,7 +33,7 @@
     "test:browser": "karma start karma.conf.js"
   },
   "dependencies": {
-    "@ethereumjs/common": "https://gitpkg.now.sh/solumos/ethereumjs-monorepo/packages/common?90917ab2",
+    "@ethereumjs/common": "https://gitpkg.now.sh/solumos/ethereumjs-monorepo/packages/common?c13248f6",
     "ethereumjs-util": "^7.1.3"
   },
   "devDependencies": {

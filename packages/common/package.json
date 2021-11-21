@@ -13,16 +13,14 @@
     "bootstrap"
   ],
   "files": [
-    "dist",
     "dist.browser",
     "src"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist.browser/index.js",
+  "types": "dist.browser/index.d.ts",
   "browser": "dist.browser/index.js",
   "scripts": {
-    "build": "npm run build:node && npm run build:browser",
-    "build:node": "../../config/cli/ts-build.sh node",
+    "build": "npm run build:browser",
     "build:browser": "../../config/cli/ts-build.sh browser",
     "prepublishOnly": "../../config/cli/prepublish.sh",
     "clean": "../../config/cli/clean-package.sh",

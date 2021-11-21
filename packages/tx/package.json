@@ -1,6 +1,6 @@
 {
   "name": "@ethereumjs/tx",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "A simple module for creating, manipulating and signing Ethereum transactions",
   "license": "MPL-2.0",
   "author": "mjbecze <mb@ethdev.com>",
@@ -33,7 +33,7 @@
     "test:browser": "karma start karma.conf.js"
   },
   "dependencies": {
-    "@ethereumjs/common": "https://gitpkg.now.sh/solumos/ethereumjs-monorepo/packages/common?c13248f6",
+    "@ethereumjs/common": "https://gitpkg.now.sh/solumos/ethereumjs-monorepo/packages/common?b1b56552",
     "ethereumjs-util": "^7.1.3"
   },
   "devDependencies": {
